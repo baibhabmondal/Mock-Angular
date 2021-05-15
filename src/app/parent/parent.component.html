@@ -1,0 +1,10 @@
+<div style="margin: 30px 40px;">
+
+  <div *ngFor="let folder of currentFolderData" style="margin: 5px; border: 2px solid black;">
+    <h5 (click)="goInsideFolder(folder.id)">
+      {{folder.name}}
+    </h5>
+  </div>
+</div>
+
+

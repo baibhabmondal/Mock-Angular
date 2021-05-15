@@ -1,0 +1,28 @@
+{
+  "data" :[
+    {
+      "id": "1234",
+      "type": "folder",
+      "parentId": null,
+      "name": "Folder"
+    },
+    {
+      "id": "1235",
+      "type": "folder",
+      "parentId": null,
+      "name": "Folder2"
+    },
+    {
+      "id": "1236",
+      "type": "folder",
+      "parentId": "1234",
+      "name": "Folder3"
+    },
+    {
+      "id": "1237",
+      "type": "folder",
+      "parentId": "1235",
+      "name": "Folder4"
+    }
+  ]
+}
